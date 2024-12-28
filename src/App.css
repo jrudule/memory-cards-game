@@ -33,6 +33,14 @@
   }
 }
 
+.startButton {
+  height: max-content;
+}
+.startButton:hover {
+  background: rgb(35, 147, 35);
+  color: white;
+}
+
 .gameText {
   display: grid;
   grid-auto-flow: column;
@@ -77,6 +85,8 @@
   padding: 50px;
 }
 
-.restartBtn {
-  height: 80px;
+.restartBtn:hover {
+  background: rgb(166, 21, 21);
+  color: white;
+  font-weight: 500;
 }
